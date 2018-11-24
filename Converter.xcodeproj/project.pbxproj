@@ -12,6 +12,8 @@
 		445887D321A4E807004E5C83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445887D121A4E807004E5C83 /* Main.storyboard */; };
 		445887D521A4E808004E5C83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445887D421A4E808004E5C83 /* Assets.xcassets */; };
 		445887D821A4E808004E5C83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445887D621A4E808004E5C83 /* LaunchScreen.storyboard */; };
+		445887E021A4FB80004E5C83 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 445887DF21A4FB80004E5C83 /* Pacifico.ttf */; };
+		445887E221A750E1004E5C83 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445887E121A750E1004E5C83 /* Time.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		445887D421A4E808004E5C83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		445887D721A4E808004E5C83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		445887D921A4E808004E5C83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445887DF21A4FB80004E5C83 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
+		445887E121A750E1004E5C83 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				445887CD21A4E807004E5C83 /* AppDelegate.swift */,
 				445887CF21A4E807004E5C83 /* ViewController.swift */,
+				445887E121A750E1004E5C83 /* Time.swift */,
 				445887D121A4E807004E5C83 /* Main.storyboard */,
 				445887D421A4E808004E5C83 /* Assets.xcassets */,
+				445887DF21A4FB80004E5C83 /* Pacifico.ttf */,
 				445887D621A4E808004E5C83 /* LaunchScreen.storyboard */,
 				445887D921A4E808004E5C83 /* Info.plist */,
 			);
@@ -124,6 +130,7 @@
 			files = (
 				445887D821A4E808004E5C83 /* LaunchScreen.storyboard in Resources */,
 				445887D521A4E808004E5C83 /* Assets.xcassets in Resources */,
+				445887E021A4FB80004E5C83 /* Pacifico.ttf in Resources */,
 				445887D321A4E807004E5C83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445887E221A750E1004E5C83 /* Time.swift in Sources */,
 				445887D021A4E807004E5C83 /* ViewController.swift in Sources */,
 				445887CE21A4E807004E5C83 /* AppDelegate.swift in Sources */,
 			);
